@@ -187,7 +187,7 @@ public class DSquare {
 	
 	}
 	
-	public static double[][] generateHeightMap(Random rng, double noise, int horzCount, int vertCount, int dimension){
+	public static double[][] generateHeightMap(Random rng, double noise, int horzCount, int #, int dimension){
 		
 		//calculate width and height of the output array
 		int width = horzCount * dimension;
@@ -195,7 +195,7 @@ public class DSquare {
 		
 		//create output array and dsquare array
 		double[][] heights = new double[width][height];
-		DSquare[][] array = new DSquare[vertCount][horzCount];
+		DSquare[][] array = new DSquare[horzCount][vertCount];
 		
 		//calculate each chunk using the diamond square algorithm
 		//if chunk is not start chunk use the previous chunk's last row and column
