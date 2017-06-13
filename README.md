@@ -11,3 +11,8 @@ This implementation is fully open-sourced feel free to use and change however yo
 # Features
 - Calculates a height map with chunks (double) 
 - Can scale a height map between 0 and X for easier implementation.
+
+# Example Application
+The example application demostrates this script in action with Swing library.
+
+![Example Screenshot](https://image.prntscr.com/image/YNZpHi1vQ1eRlwXCnKyCFg.png)
