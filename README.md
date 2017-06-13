@@ -3,8 +3,11 @@
 
 Diamond Square is mainly used for terrain generation. I am sure there is another use out there that I don't know. This implementation was written in Java but it can easily be converted to other languages...
 
-Best explanation of Diamond Square Algorithm can be found on wiki page:
+Simple explanation of Diamond Square Algorithm can be found on wiki page:
 https://en.wikipedia.org/wiki/Diamond-square_algorithm
+
+For more detailed explanation with an example, visit my blog:
+http://hhoca.com/2017/06/13/procedural-terrain-generation-diamond-square-algorithm/
 
 This implementation is fully open-sourced feel free to use and change however you want. I have created this for a game project I was working on. It is suitable for 3D games as well as tile based 2D games.
 
